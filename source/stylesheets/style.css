@@ -1,0 +1,115 @@
+p, li {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.header, .content, .footer {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.header {
+  border-bottom: 4px solid #999;
+}
+
+h1.title {
+  font-family: 'Snippet', sans-serif;
+  font-size: 72px;
+  margin: 20px 0;
+}
+h1.title span {
+  color: #cc0000;
+}
+
+.links {
+  display: block;
+  margin: 10px 0;
+  padding: 0 0 12px;
+  height: 20px;
+  float: right;
+}
+.links li {
+  float: left;
+  list-style: none;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.links li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+.links li a.current {
+  color: black;
+}
+
+img {
+  border: 2px solid #999;
+}
+
+h3 {
+  font-family: 'Snippet', sans-serif;
+  font-size: 28px;
+  color: black;
+  margin-bottom: 0;
+}
+h3 a {
+  color: black;
+  text-decoration: none;
+}
+h3 .link a {
+  color: gray;
+  font-size: 20px;
+}
+/*h3 + p {
+  margin-top: 5px;
+}*/
+.post img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.post {
+  clear: both;
+  padding-bottom: 20px;
+}
+.post ul {
+  display: block;
+  margin: 10px 0;
+  padding: 0 0 12px;
+  height: 20px;
+  float: right;
+}
+.post li {
+  float: left;
+  list-style: none;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+
+  color: white;
+  text-transform: lowercase;
+}
+.post li.price {
+  background: #000099;
+}
+.post li.category {
+  background: #cc0000;
+}
+.post li.level {
+  background: #009933;
+}
+.post li.instruction {
+  background: #F2920C;
+}
+
+.footer {
+  color: gray;
+  clear: both;
+  margin-top: 40px;
+  border-top: 1px solid #999;
+  padding: 5px 0;
+}

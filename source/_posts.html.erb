@@ -1,0 +1,28 @@
+<% data.videos.courses.each do |course| %>
+  <div class="post ruby">
+
+
+    <% link_to "#{course.html_page}" do %>
+        <%= image_tag "#{course.logo_file}", width: "300", height: "180" %>
+    <% end %>
+
+    <h3>
+      <%= link_to "#{course.title}", "#{course.html_page}" %>
+      <span class="link">
+        <%= link_to "#{course.sub_title}", "#{course.html_page}" %>
+      </span>
+    </h3>
+
+    <p>
+      <%= "#{course.description}" %>
+    </p>
+
+    <ul>
+      <li class="price"><%= "#{course.price}" %></li>
+      <li class="category"><%= "#{course.category}" %></li>
+      <li class="level"><%= "#{course.level}" %></li>
+    </ul>
+
+  </div> <!-- end post -->
+
+<% end %>
