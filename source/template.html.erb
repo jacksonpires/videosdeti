@@ -2,6 +2,12 @@
   <%= partial "links" %>
 
   <div class="posts">
+
+    <div class="post ruby">
+        <h3> <%= link_to "#{course.title}", "#{course.html_page}" %> </h3>
+        <%= course.video_embedded %>
+    </div>
+
     <%= partial "posts" %>
   </div> <!-- end posts -->
 

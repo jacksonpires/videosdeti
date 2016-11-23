@@ -32,7 +32,7 @@ page '/newsletter.html', :layout => false
 ignore /^http.+/
 
 data.videos.courses.each do |v|
-  proxy "/#{v.html_page}", "/template.html", :locals => { :video => v }, :ignore => true
+  proxy "/#{v.html_page}", "/template.html", :locals => { :course => v }, :ignore => true
 end
 
 
