@@ -90,3 +90,14 @@ courses:
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como construir aplicações usando o framework Ruby on Rails, o mesmo está dividido em 5 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando nesse mundo de desenvolvimento Web com Rails. No primeiro módulo mostraremos a parte básica do Ruby on Rails, no segundo módulo configuraremos um novo ambiente de desenvolvimento, no terceiro criaremos uma aplicação completa, no quarto módulo configuraremos um VPS e por fim, no quinto módulo mostraremos assuntos que não foram abordados nos módulos anteriores.
+
+  - title: Entendendo e documentando RESTful APIs
+    sub_title: Entenda de uma vez por todas RESTful  APIs
+    logo_file: restful-cover.png
+    price: com certificado
+    category: RESTful APIs
+    level: todos os níveis
+    html_page: http://bit.ly/restful-apis
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os conceitos sobre  RESTful APIs, bem como documentá-lo no intuito de facilitar a criação de APIs RESTful em qualquer linguagem de programação. O mesmo está dividido em 2 módulos, onde o primeiros falaremos sobre todos os conceitos que permeiam as RESTful APIs e o segundo faremos o uso do framework Swagger para documentar uma API.
