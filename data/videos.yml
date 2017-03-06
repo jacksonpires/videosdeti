@@ -1,59 +1,25 @@
 courses:
-  - title: Princípios do MS-DOS
-    sub_title: Aprenda o básico
-    logo_file: msdos-cover.jpg
-    price: grátis
-    category: MS-DOS
-    level: iniciantes
-    html_page: msdos.html
-    video_embedded: >
-      <iframe width="100%" height="600"
-        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4gluymiLUqE9pULhdrVqNc8" frameborder="0" allowfullscreen>
-      </iframe>
+  - title: Desenvolvendo RESTful APIs com Ruby on Rails
+    sub_title: Aprenda a criar uma aplicação completa com Ruby on Rails API-only
+    logo_file: ror-api-cover.png
+    price: com certificado
+    category: Ruby on Rails API Only
+    level: intermediário/avançado
+    html_page: http://bit.ly/curso-ror-api
+    video_embedded: not
     description: >
-      Se você pretende conhecer um pouco mais sobre o Sistema Operacional Windows ou ainda, se pretende aprender a programar, é essencial que saiba o básico do famoso MS-DOS.
+      O curso visa mostrar aos alunos como construir aplicações REST/RESTful usando o framework Ruby on Rails API-only. Dentre os assuntos abordados veremos, o funcionamento dos verbos/métodos HTTP, o uso do Render JSON nativo do Rails, a gem Active Model Serializers, Caching, Versionamento, CORS, Authenticação, TDD, dentre outras coisas.
 
-  - title: Conhecendo e Usando o VirtualBox
-    sub_title: Aprenda o básico
-    logo_file: virtualbox-cover.jpg
-    price: grátis
-    category: VirtualBox
-    level: iniciantes
-    html_page: virtualbox.html
-    video_embedded: >
-      <iframe width="100%" height="600"
-        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iYPxSoMx4Fp56SGXfluPCD" frameborder="0" allowfullscreen>
-      </iframe>
+  - title: Entendendo e documentando RESTful APIs
+    sub_title: Entenda de uma vez por todas RESTful  APIs
+    logo_file: restful-cover.png
+    price: com certificado
+    category: RESTful APIs
+    level: todos os níveis
+    html_page: http://bit.ly/restful-apis
+    video_embedded: not
     description: >
-      Aprendendo a usar o VirtualBox, você conseguirá instalar/virtualizar vários sistemas operacionais em um único computador/notebook.
-
-  - title: Conhecendo e Usando o Vagrant
-    sub_title: Aprenda o básico
-    logo_file: vagrant-cover.jpg
-    price: grátis
-    category: Vagrant
-    level: iniciantes
-    html_page: vagrant.html
-    video_embedded: >
-      <iframe width="100%" height="600"
-        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4j6xaMvvTuYI0BgKadati5L" frameborder="0" allowfullscreen>
-      </iframe>
-    description: >
-      Atualmente, muitos desenvolvedores freelance ou mesmo em empresas, trabalham em muitos projetos, muitas vezes ao mesmo tempo. Sendo assim, é necessário manter um ambiente computacional que atenda a cada um dos projetos trabalhados. O Vagrant ajuda o desenvolvedor a manter diversos ambientes computacionais através da virtualização, permitindo que se possa ter vários ambientes isolados, tudo isso de forma rápida e prática.
-
-  - title: Conhecendo e Usando o Ubuntu Linux
-    sub_title: Aprenda o básico
-    logo_file: linux-cover.png
-    price: grátis
-    category: Ubuntu Linux
-    level: iniciantes
-    html_page: linux.html
-    video_embedded: >
-      <iframe width="100%" height="600"
-        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iMR1nTLXmsamnvOnnMNCNO" frameborder="0" allowfullscreen>
-      </iframe>
-    description: >
-      Se você está iniciando na área de Ti, com certeza precisará conhecer os conceitos básicos do Linux, então é chegada a hora, comece agora mesmo a entrar no mundo open-source e a desvendar os mistérios do Ubuntu Linux.
+      O curso visa mostrar aos alunos os conceitos sobre  RESTful APIs, bem como documentá-lo no intuito de facilitar a criação de APIs RESTful em qualquer linguagem de programação. O mesmo está dividido em 2 módulos, onde o primeiros falaremos sobre todos os conceitos que permeiam as RESTful APIs e o segundo faremos o uso do framework Swagger para documentar uma API.
 
   - title: Orientação a Objetos com Java
     sub_title: Aprenda o básico
@@ -65,6 +31,17 @@ courses:
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos como trabalhar com Orientação a Objetos utilizando o Java, o mesmo está dividido em 3 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando no desenvolvimento Orientado a Objetos. No primeiro módulo será mostrada a história do Java bem como os conceitos iniciais da Programação Orientada a Objetos, no segundo módulo vamos instalar o Java e a IDE Eclipse nos três sistemas operacionais (Windows, Linux e Mac), e por fim, no terceiro módulo, falaremos sobre alguns assuntos que permeiam o Java e a Orientação a Objetos como pacotes, arrays, associações e herança.
+
+  - title: Ruby on Rails - Curso Completo
+    sub_title: Aprenda do básico ao avançado
+    logo_file: rails-completo-cover.png
+    price: com certificado
+    category: Ruby on Rails
+    level: todos os níveis
+    html_page: https://bit.ly/curso-ror
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos como construir aplicações usando o framework Ruby on Rails, o mesmo está dividido em 5 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando nesse mundo de desenvolvimento Web com Rails. No primeiro módulo mostraremos a parte básica do Ruby on Rails, no segundo módulo configuraremos um novo ambiente de desenvolvimento, no terceiro criaremos uma aplicação completa, no quarto módulo configuraremos um VPS e por fim, no quinto módulo mostraremos assuntos que não foram abordados nos módulos anteriores.
 
   - title: Ruby on Rails para iniciantes
     sub_title: Aprenda o básico
@@ -80,24 +57,58 @@ courses:
     description: >
       Ruby on Rails é um famoso framework para desenvolvimento de aplicações Web. Esse mini-curso visa mostrar de forma introdutória como dar os primeiros passos com essa maravilhosa ferramenta.
 
-  - title: Ruby on Rails - Curso Completo
-    sub_title: Aprenda do básico ao avançado
-    logo_file: rails-completo-cover.png
-    price: com certificado
-    category: Ruby on Rails
-    level: todos os níveis
-    html_page: https://bit.ly/curso-ror
-    video_embedded: not
+  - title: Conhecendo e Usando o Vagrant
+    sub_title: Aprenda o básico
+    logo_file: vagrant-cover.jpg
+    price: grátis
+    category: Vagrant
+    level: iniciantes
+    html_page: vagrant.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4j6xaMvvTuYI0BgKadati5L" frameborder="0" allowfullscreen>
+      </iframe>
     description: >
-      O curso visa mostrar aos alunos como construir aplicações usando o framework Ruby on Rails, o mesmo está dividido em 5 módulos que mostrarão detalhadamente cada uma das etapas enfrentadas por quem está iniciando nesse mundo de desenvolvimento Web com Rails. No primeiro módulo mostraremos a parte básica do Ruby on Rails, no segundo módulo configuraremos um novo ambiente de desenvolvimento, no terceiro criaremos uma aplicação completa, no quarto módulo configuraremos um VPS e por fim, no quinto módulo mostraremos assuntos que não foram abordados nos módulos anteriores.
+      Atualmente, muitos desenvolvedores freelance ou mesmo em empresas, trabalham em muitos projetos, muitas vezes ao mesmo tempo. Sendo assim, é necessário manter um ambiente computacional que atenda a cada um dos projetos trabalhados. O Vagrant ajuda o desenvolvedor a manter diversos ambientes computacionais através da virtualização, permitindo que se possa ter vários ambientes isolados, tudo isso de forma rápida e prática.
 
-  - title: Entendendo e documentando RESTful APIs
-    sub_title: Entenda de uma vez por todas RESTful  APIs
-    logo_file: restful-cover.png
-    price: com certificado
-    category: RESTful APIs
-    level: todos os níveis
-    html_page: http://bit.ly/restful-apis
-    video_embedded: not
+  - title: Conhecendo e Usando o VirtualBox
+    sub_title: Aprenda o básico
+    logo_file: virtualbox-cover.jpg
+    price: grátis
+    category: VirtualBox
+    level: iniciantes
+    html_page: virtualbox.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iYPxSoMx4Fp56SGXfluPCD" frameborder="0" allowfullscreen>
+      </iframe>
     description: >
-      O curso visa mostrar aos alunos os conceitos sobre  RESTful APIs, bem como documentá-lo no intuito de facilitar a criação de APIs RESTful em qualquer linguagem de programação. O mesmo está dividido em 2 módulos, onde o primeiros falaremos sobre todos os conceitos que permeiam as RESTful APIs e o segundo faremos o uso do framework Swagger para documentar uma API.
+      Aprendendo a usar o VirtualBox, você conseguirá instalar/virtualizar vários sistemas operacionais em um único computador/notebook.
+
+  - title: Conhecendo e Usando o Ubuntu Linux
+    sub_title: Aprenda o básico
+    logo_file: linux-cover.png
+    price: grátis
+    category: Ubuntu Linux
+    level: iniciantes
+    html_page: linux.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4iMR1nTLXmsamnvOnnMNCNO" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Se você está iniciando na área de Ti, com certeza precisará conhecer os conceitos básicos do Linux, então é chegada a hora, comece agora mesmo a entrar no mundo open-source e a desvendar os mistérios do Ubuntu Linux.
+
+  - title: Princípios do MS-DOS
+    sub_title: Aprenda o básico
+    logo_file: msdos-cover.jpg
+    price: grátis
+    category: MS-DOS
+    level: iniciantes
+    html_page: msdos.html
+    video_embedded: >
+      <iframe width="100%" height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4gluymiLUqE9pULhdrVqNc8" frameborder="0" allowfullscreen>
+      </iframe>
+    description: >
+      Se você pretende conhecer um pouco mais sobre o Sistema Operacional Windows ou ainda, se pretende aprender a programar, é essencial que saiba o básico do famoso MS-DOS.
