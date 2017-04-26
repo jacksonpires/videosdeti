@@ -12,7 +12,7 @@ courses:
 
   - title: Entendendo e documentando RESTful APIs
     sub_title: Entenda de uma vez por todas RESTful  APIs
-    logo_file: restful-cover.png
+    logo_file: restful-cover.jpg
     price: com certificado
     category: RESTful APIs
     level: todos os níveis
@@ -84,6 +84,17 @@ courses:
       </iframe>
     description: >
       Aprendendo a usar o VirtualBox, você conseguirá instalar/virtualizar vários sistemas operacionais em um único computador/notebook.
+
+  - title: Banco de Dados e ANSI SQL para iniciantes
+    sub_title: Aprenda o básico
+    logo_file: sql-cover.jpg
+    price: com certificado
+    category: Banco de dados e SQL
+    level: iniciantes
+    html_page: bd-sql.html
+    video_embedded: not
+    description: >
+      O curso visa mostrar aos alunos os conceitos sobre Banco de Dados e ANSI SQL a fim de permitir criação, pesquisas e manipulação de dados armazenados nos mais diversos tipos de SGDB's. O mesmo está dividido em 4 módulos que facilitarão a explanação e o aprendizado por parte do aluno.
 
   - title: Conhecendo e Usando o Ubuntu Linux
     sub_title: Aprenda o básico
