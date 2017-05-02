@@ -91,7 +91,7 @@ courses:
     price: com certificado
     category: Banco de dados e SQL
     level: iniciantes
-    html_page: bd-sql.html
+    html_page: http://bit.ly/bd-ansisql
     video_embedded: not
     description: >
       O curso visa mostrar aos alunos os conceitos sobre Banco de Dados e ANSI SQL a fim de permitir criação, pesquisas e manipulação de dados armazenados nos mais diversos tipos de SGDB's. O mesmo está dividido em 4 módulos que facilitarão a explanação e o aprendizado por parte do aluno.
